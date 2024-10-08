@@ -99,14 +99,14 @@ module.exports = {
 
       if (!np) {
 
-        return api.sendMessage('💬 Que puis-je faire pour toi 🧘🏽‍♂️', event.threadID, event.messageID);
+        return api.sendMessage('💬 Posez vos questions 🥰', event.threadID, event.messageID);
 
       }
 
 
       const cliff = await new Promise(resolve => {
 
-        api.sendMessage('[♻️] Please Wait....', event.threadID, (err, info1) => {
+        api.sendMessage('[✅] Recherche en cours 💋....', event.threadID, (err, info1) => {
 
           resolve(info1);
 
