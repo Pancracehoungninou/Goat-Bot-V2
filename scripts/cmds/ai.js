@@ -133,7 +133,7 @@ Bonjour et bienvenue ! Vous trouverez ici une aide personnalisée pour toutes vo
 
             role: "user",
 
-            content: `☺️🥰?`
+            content: `🥰🥰?`
 
           },
 
@@ -166,7 +166,7 @@ Bonjour et bienvenue ! Vous trouverez ici une aide personnalisée pour toutes vo
 
         const answer = data.gpt;
 
-        const msg = `☠️💀Pancrace \n\n${answer}`;
+        const msg = `☠️💀Pancrace💀☠️ \n\n${answer}`;
 
         try {
 
