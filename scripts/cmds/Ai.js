@@ -1,4 +1,4 @@
-£cmd install ai.js const { GoatWrapper } = require('fca-liane-utils');
+const { GoatWrapper } = require('fca-liane-utils');
 
 
 let fontEnabled = false;
@@ -99,16 +99,14 @@ module.exports = {
 
       if (!np) {
 
-        return api.sendMessage(✨✨Pancrace✨✨ 
-
-Bonjour et bienvenue ! Vous trouverez ici une aide personnalisée pour toutes vos questions et besoins. N'hésitez pas à me demander tout ce dont vous avez besoin, je suis là pour vous aider. Que puis-je faire pour vous aujourd'hui ?', event.threadID, event.messageID);
+        return api.sendMessage('😏Poser vos moindres questions  je m'efforcerai à vous donner des réponses satisfaisantes', event.threadID, event.messageID);
 
       }
 
 
       const cliff = await new Promise(resolve => {
 
-        api.sendMessage('Veiller patienté 🕑5s....', event.threadID, (err, info1) => {
+        api.sendMessage('[♻] Please Wait....', event.threadID, (err, info1) => {
 
           resolve(info1);
 
@@ -133,7 +131,7 @@ Bonjour et bienvenue ! Vous trouverez ici une aide personnalisée pour toutes vo
 
             role: "user",
 
-            content: `💫?`
+            content: `💬 𝙃𝙞 𝙄'𝙢 𝙈𝙞𝙖 𝙍𝙤𝙣𝙖𝙡𝙙'𝙨 𝙫𝙞𝙧𝙩𝙪𝙖𝙡 𝙖𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩. 𝙒𝙝𝙖𝙩 𝙘𝙖𝙣 𝙞 𝙙𝙤 𝙛𝙤𝙧 𝙮𝙤𝙪 🤓?`
 
           },
 
@@ -166,7 +164,7 @@ Bonjour et bienvenue ! Vous trouverez ici une aide personnalisée pour toutes vo
 
         const answer = data.gpt;
 
-        const msg = `💀☠️ Pancrace ☠️💀 \n\n${answer}`;
+        const msg = `💬 𝗚𝗣𝗧-𝟰 \n\n${answer}`;
 
         try {
 
