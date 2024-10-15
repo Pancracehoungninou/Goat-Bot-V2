@@ -99,7 +99,7 @@ module.exports = {
 
       if (!np) {
 
-        return api.sendMessage('😏Poser vos moindres questions  je m'efforcerai à vous donner des réponses satisfaisantes', event.threadID, event.messageID);
+        return api.sendMessage('🥺 J'écoute ?💝', event.threadID, event.messageID);
 
       }
 
