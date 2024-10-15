@@ -106,7 +106,7 @@ module.exports = {
 
       const cliff = await new Promise(resolve => {
 
-        api.sendMessage('[♻] Please Wait....', event.threadID, (err, info1) => {
+        api.sendMessage('[🔍] Tik Tak Tik Tak⏱️....', event.threadID, (err, info1) => {
 
           resolve(info1);
 
