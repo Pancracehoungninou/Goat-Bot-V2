@@ -99,7 +99,7 @@ module.exports = {
 
       if (!np) {
 
-        return api.sendMessage('🥺💝', event.threadID, event.messageID);
+        return api.sendMessage('👀👀👂👂', event.threadID, event.messageID);
 
       }
 
@@ -164,7 +164,8 @@ module.exports = {
 
         const answer = data.gpt;
 
-        const msg = `⚔️ Pancrace============= \n\n${answer}😜=========================`;
+        const msg = `✨ Pancrace IA ✨
+━━━━━━━━━━━━━  \n\n${answer} ━━━━━━━━━━━━━`;
 
         try {
 
